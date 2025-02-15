@@ -1,0 +1,90 @@
+/* ImageSection.css */
+.image-section-container {
+    padding:10px;
+    padding-bottom: 30px;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 2000px; /* Adjust this if you want wider sections */
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+  
+  .content-wrapper {
+    gap: 1rem;
+    padding: 0.1rem;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .image-container {
+    min-width: 50%;
+    max-width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .image-container:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add this to ImageSection.css */
+@media (max-width: 768px) {
+    .image-section-container {
+      width: 95%;
+      margin: 1rem auto;
+    }
+  
+    .section-block {
+      padding: 1rem;
+    }
+  
+    .section-block h2 {
+      font-size: 1.4rem;
+      text-align: center;
+      padding: 0 15px !important;
+    }
+  
+    .short-description {
+      text-align: center;
+      padding: 0 15px !important;
+      font-size: 1rem;
+    }
+  
+    .content-wrapper {
+      flex-direction: column;
+      padding: 0 !important;
+    }
+  
+    .image-container {
+      width: 100% !important;
+      max-width: 100% !important;
+      min-width: 100% !important;
+      height: auto;
+      margin: 0 auto;
+    }
+  
+    .section-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  
+    .text-content {
+      width: 100%;
+      padding: 0 15px !important;
+      text-align: center;
+    }
+  
+    .long-description {
+      font-size: 1rem;
+      line-height: 1.6;
+      padding: 0 15px !important;
+      text-align: left;
+    }
+  
+    .toggle-indicator {
+      right: 1rem;
+      padding: 0 15px !important;
+    }
+  }

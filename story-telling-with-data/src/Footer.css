@@ -1,0 +1,45 @@
+/* Footer.css */
+.footer {
+    background: linear-gradient(135deg, #0e6655, #138d75);
+    color: white;
+    padding: 2rem 1rem;
+    margin-top: 4rem;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .copyright {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+  }
+  
+  .credits {
+    font-size: 1rem;
+    opacity: 0.9;
+  }
+  
+  .heart {
+    color: #ff69b4;
+    margin: 0 0.25rem;
+  }
+
+
+/* Add this to Footer.css */
+@media (max-width: 768px) {
+    .footer {
+      padding: 1.5rem 0.5rem;
+    }
+  
+    .footer-content {
+      padding: 0 15px;
+    }
+  
+    .copyright, .credits {
+      font-size: 0.9rem;
+    }
+  }
